@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+/* Navbar */
+
+
+#navbar {
+    width: 100%;
+    background: #111;
+    color: #eee;
+    height: 80px;
+}
+
+
+#nav-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+#nav-container img {
+    width: 120px;
+}
+
+#itens {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 20px;
+    
+}
+
+#itens a {
+    text-decoration: none;
+    color: #eee;
+}
+
+
+#itens li {
+    padding: 20px;
+}
+
+/* ShowCase */
+
+#showcase {
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eee;
+    text-transform: uppercase;
+    background: url("progaming.jpg") no-repeat center center/cover;
+    ;
+    font-size: 1rem;
+
+    /* Overlay */
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: color;
+}
+
+.showcase-container {
+    text-align: center;
+    text-shadow: 2px 2px 2px #111;
+    font-size: 1.2rem;
+}
+
+.showcase-container p {
+    padding: 7px 0;
+}
+
+
+/* Bnt */
+
+.bnt {
+    display: inline-block;
+    padding: 15px 60px;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    background: #111;
+    color: #eee;
+    border-radius: 5px;
+    transition: background 500ms ease;
+    text-decoration: none;
+
+}
+
+.bnt:hover {
+    cursor: pointer;
+    background: #000000b8;
+}
+
+
+/* About */
+
+
+#about{
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: #111;
+    color: #eee;    
+    text-shadow: 1px 1px 1x #000;
+    border-radius: 1px;
+    transition: background 500ms ease;
+    
+}
+
+#about:hover{
+    cursor: pointer;
+    background: #000000b8;
+    
+}
+
+
+#about-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+#about-header h2 {
+    margin-top: 16px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    font-size: xx-large;
+    margin-bottom: 8px;
+}
+
+.section-text {
+    text-align: justify;
+    margin: 0 20px;
+    font-size: large;
+    text-shadow: 1px 1px 2px black;
+}
+
+#about-container {
+    display: flex;
+}
+
+#about-image{
+    display: flex;
+    margin-right: 30px
+}
+
+/* Services */
+
+#services{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: #111;
+    color: #eee;    
+    text-shadow: 1px 1px 1x #000;
+    border-radius: 1px;
+    transition: background 500ms ease;
+    flex-direction: column;
+}
+
+.services-header h2 {
+    margin-top: 20px;
+    font-size: xx-large;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.services-container li {
+    font-size: large;
+}
+
+#services-items{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}
+
+#services:hover{
+    cursor: pointer;
+    background: #000000b8;
+}
+
+/* Footer */
+
+#footer {
+    width: 100%;
+    background: #111;
+    color: #eee;
+    height: 80px;
+}
+
+#footer-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-container a, li{
+    text-decoration: none;
+    color: #eee;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+#footer-container p {
+    display: flex;
+    margin-top: 25px;
+}
+
+.fa-brands {
+    padding: 8px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    background: #111;
+    transition: all 500ms ease;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+    background: #eee;
+    color: black;
+}
+
+/* Outros */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
