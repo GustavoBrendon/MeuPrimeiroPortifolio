@@ -547,6 +547,7 @@ a {
         width: 100%;
         flex-direction: column;
         padding: 0;
+
     }
     
 }
@@ -568,6 +569,8 @@ a {
         flex-direction: column;
         padding: 0;
         background: rgba(0, 0, 0, 1);
+        color: #eee;
+        
     }
     
 }
