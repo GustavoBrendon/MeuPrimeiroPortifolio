@@ -5,7 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+    background: rgba(1, 1, 1, 0);
 }
+
 
 /* Navbar */
 
@@ -30,10 +32,12 @@
 
 .logo {
     font-size: 2rem;
+    background: rgba(0, 0, 0, 0);
 }
 
 #nav-container img {
     width: 120px;
+    background: rgba(0, 0, 0, 0);
 }
 
 #itens {
@@ -52,6 +56,7 @@
 
 #itens li {
     padding: 20px;
+    background: rgba(0, 0, 0, 0);
 }
 
 /* ShowCase */
@@ -250,5 +255,343 @@ body {
 
 a {
     text-decoration: none;
+
+}
+
+/* Responsive */
+
+
+@media screen and (max-width: 768px){
+    #navbar, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        
+      
+    }
+    
+}
+@media screen and (max-width: 768px){
+    *, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        background: rgba(0, 0, 0, 1);
+      
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #nav-container, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .logo, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        text-shadow: 2px 2px 2px black;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #nav-container img, aside{
+        width: 105px;
+        flex-direction: column;
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #itens, aside{
+        width: 100%;
+        flex-direction: row;
+        padding: 0;
+        margin-top: 10px;
+        text-shadow: 2px 2px 2px black;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #itens a, aside{
+        width: 100%;
+        flex-direction: row;
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #itens li, aside{
+        width: 100%;
+        flex-direction: row;
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #showcase, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .showcase-container, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .showcase-container p, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+@media screen and (max-width: 768px){
+    .showcase-container h2, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        background: rgba(0, 0, 0, 0);
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .bnt, aside{
+        width: 50%;
+        flex-direction: column;
+        padding: 0;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .bnt:hover, aside{
+        width: 50%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #about, aside{
+        width: 110%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+@media screen and (max-width: 768px){
+    #about:hover, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        background: #000;
+    
+    }
+
+@media screen and (max-width: 768px){
+    #about-header, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #about-header h2, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #about-header h2, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .section-text, aside{
+        width: 86%;
+        flex-direction: column;
+        padding: 0;
+        margin-left: 10px;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #about-container, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #about-image, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #services, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        transition: background 500ms ease;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .services-header h2, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .services-container li, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #services-items, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #services:hover, aside{
+        transition: background 500ms ease;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        cursor: pointer;
+        background: #0000003a;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #footer, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #footer-container, aside{
+        text-align: center;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    #footer-container a, li, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    #footer-container p, aside{
+        margin-left: -15px;
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .fa-brands, aside{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        border: none;
+        padding: 0;
+        background: rgba(0, 0, 0, 1);
+    }
+    
+}
+@media screen and (max-width: 768px){
+    .fa-brands:hover, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+        background: rgba(0, 0, 0, 1);
+    }
+    
+}
+@media screen and (max-width: 768px){
+    a, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+}
+@media screen and (max-width: 768px){
+    body, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+
+}
+@media screen and (max-width: 768px){
+    body, aside{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
 
 }
