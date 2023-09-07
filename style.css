@@ -68,7 +68,7 @@
     align-items: center;
     color: #eee;
     text-transform: uppercase;
-    background: url("progaming.jpg") no-repeat center center/cover;
+    background: url("pc.jpg") no-repeat center center/cover;
     ;
     font-size: 1rem;
 
@@ -272,10 +272,9 @@ a {
 
 
     }
-
 }
 
-@media screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
 
     *,
     aside {
@@ -283,6 +282,7 @@ a {
         flex-direction: column;
         padding: 0;
         background: rgba(0, 0, 0, 1);
+        background: #111;
 
     }
 
@@ -309,6 +309,7 @@ a {
         padding: 0;
         text-shadow: 2px 2px 2px black;
         background: rgba(0, 0, 0, 0);
+        margin-left: 20px;
     }
 
 }
@@ -335,6 +336,7 @@ a {
         margin-top: 10px;
         text-shadow: 2px 2px 2px black;
         background: rgba(0, 0, 0, 0);
+        margin-left: 20px;
     }
 
 }
@@ -439,18 +441,19 @@ a {
             width: 110%;
             flex-direction: column;
             padding: 0;
+            background: #111;
+            margin-right: 40px;
         }
+    }
 
         @media screen and (max-width: 768px) {
 
             #about:hover,
             aside {
-                width: 100%;
-                flex-direction: column;
-                padding: 0;
-                background: #000;
-
+                background: #111;
+              
             }
+        }
 
             @media screen and (max-width: 768px) {
 
@@ -459,6 +462,8 @@ a {
                     width: 100%;
                     flex-direction: column;
                     padding: 0;
+                    background: #111;
+                    margin-left: -15px;
                 }
 
             }
@@ -470,20 +475,11 @@ a {
                     width: 100%;
                     flex-direction: column;
                     padding: 0;
+                    background: #111;
                 }
 
             }
 
-            @media screen and (max-width: 768px) {
-
-                #about-header h2,
-                aside {
-                    width: 100%;
-                    flex-direction: column;
-                    padding: 0;
-                }
-
-            }
 
             @media screen and (max-width: 768px) {
 
@@ -493,6 +489,16 @@ a {
                     flex-direction: column;
                     padding: 0;
                     margin-left: 10px;
+                    background: #111;
+                }
+
+                .section-text p,
+                aside {
+                    width: 86%;
+                    flex-direction: column;
+                    padding: 0;
+                    margin-left: 10px;
+                    background: #111;
                 }
 
             }
@@ -504,6 +510,7 @@ a {
                     width: 100%;
                     flex-direction: column;
                     padding: 0;
+                    
                 }
 
             }
@@ -637,6 +644,7 @@ a {
                     border: none;
                     padding: 0;
                     background: rgba(0, 0, 0, 1);
+                    background: #111;
                 }
 
             }
@@ -645,12 +653,10 @@ a {
 
                 .fa-brands:hover,
                 aside {
-                    width: 100%;
                     flex-direction: column;
                     padding: 0;
                     background: rgba(0, 0, 0, 1);
                     color: #eee;
-
                 }
 
             }
