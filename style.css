@@ -205,7 +205,13 @@
 }
 
 .fa-solid {
-    color: #020659;
+    color: 	white;
+    transition: color 500ms ease;
+}
+
+.fa-solid:hover{
+    cursor: pointer;
+    color: #011244;
 }
 
 /* Footer */
