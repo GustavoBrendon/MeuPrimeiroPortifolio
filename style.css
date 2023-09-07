@@ -209,7 +209,10 @@
     transition: color 500ms ease;
 }
 
-
+.fa-solid:hover{
+    cursor: pointer;
+    color: #011244;
+}
 
 /* Footer */
 
@@ -664,7 +667,7 @@ a {
                 aside {
                     flex-direction: column;
                     padding: 0;
-                    background: rgba(0, 0, 0, 1);
+                    background: #111;
                     color: #eee;
                 }
 
