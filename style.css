@@ -106,7 +106,7 @@
 
 .bnt:hover {
     cursor: pointer;
-    background: #000000b8;
+    background: #011244 ;
 }
 
 
@@ -204,6 +204,14 @@
     background: #000000b8;
 }
 
+.fa-solid {
+    color: 	#020659;
+}
+
+.fa-solid:hover {
+    color: #020659;
+}
+
 /* Footer */
 
 #footer {
@@ -242,6 +250,8 @@ li {
     background: #111;
     transition: all 500ms ease;
 }
+
+
 
 .fa-brands:hover {
     cursor: pointer;
