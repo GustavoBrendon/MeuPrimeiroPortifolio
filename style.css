@@ -27,7 +27,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .logo {
@@ -156,12 +155,12 @@
 }
 
 #about-container {
-    display: flex;
+    display: block;
 }
 
 #about-image {
-    display: flex;
-    margin-right: 30px
+    display: block;
+    margin: -180px auto 0  ;
 }
 
 /* Services */
