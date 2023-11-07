@@ -656,10 +656,12 @@ a {
                     padding: 0;
                     background: rgba(0, 0, 0, 1);
                     background: #111;
-                }
-
-                .fa-brands fa-instagram::before {
-                   
+                    font-size: 22px;
+                    margin: 8px auto;
+                    border: 1px solid white;
+                    width: auto;
+                    padding: 8px;
+                    border-radius: 8px;
                 }
 
             }
@@ -707,3 +709,4 @@ a {
                     padding: 0;
                 }
             }
+        }
