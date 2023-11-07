@@ -449,11 +449,11 @@ a {
 
         #about,
         aside {
-            width: 110%;
+            width: 100%;
             flex-direction: column;
             padding: 0;
             background: #111;
-            margin-right: 40px;
+            margin: auto;
         }
     }
 
@@ -474,7 +474,7 @@ a {
                     flex-direction: column;
                     padding: 0;
                     background: #111;
-                    margin-left: -15px;
+                    margin: auto;
                 }
 
             }
@@ -499,7 +499,7 @@ a {
                     width: 86%;
                     flex-direction: column;
                     padding: 0;
-                    margin-left: 10px;
+                    margin: 8px auto;
                     background: #111;
                 }
 
@@ -521,6 +521,7 @@ a {
                     width: 100%;
                     flex-direction: column;
                     padding: 0;
+                    margin: auto;
                     
                 }
 
@@ -532,7 +533,6 @@ a {
                 aside {
                     width: 80%;
                     flex-direction: column;
-                    padding: 0;
                 }
 
             }
@@ -656,6 +656,10 @@ a {
                     padding: 0;
                     background: rgba(0, 0, 0, 1);
                     background: #111;
+                }
+
+                .fa-brands fa-instagram::before {
+                   
                 }
 
             }
